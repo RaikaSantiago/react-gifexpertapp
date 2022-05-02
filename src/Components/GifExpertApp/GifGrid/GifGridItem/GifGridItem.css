@@ -1,0 +1,18 @@
+.card {
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.h4-back{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
