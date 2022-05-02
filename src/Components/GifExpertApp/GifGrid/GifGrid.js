@@ -5,7 +5,7 @@ import { useFechGif } from '../../../hooks/useFechGif';
 
 export const GifGrid = ({ cat }) => {
     const {data:imgs, loading} = useFechGif(cat);
-    
+
     const getCapitalize = (word) => {
         return word[0].toUpperCase() + word.slice(1).toLowerCase();
     }
